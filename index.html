@@ -2,16 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Ntow Boateng</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 131 - William Ntow Boateng homepage" />
+    <meta name="author" content="William Ntow Boateng" />
+    <title>WDD 131: Dynamic Web Fundamentals - William Ntow Boateng</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        William Ntow Boateng
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>William Ntow Boateng</span></h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/william-ntow-boateng-5a2285210/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
     </header>
 
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="bio">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat libero perferendis
+                        laboriosam quibusdam a. Non quasi explicabo cumque rem libero voluptate tenetur nemo tempora id,
+                        ducimus debitis, fugiat et!</p>
+                    <div class="profile-img">
+                        <img src="images/profile.webp" alt="William Ntow Boateng">
+                    </div>
+                </div>
+
+                <h3>Accra, Ghana</h3>
+                <div class="location">
+                    <img src="images/photo-1630386226447-af0a955c1009.webp" alt="Independence Square of Ghana" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consectetur placeat error at dolore
+                        nihil, sapiente quidem iusto eligendi voluptate enim facere ipsam itaque magni qui ad reiciendis
+                        voluptatibus optio?.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://placeholder.com/">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | William Ntow Boateng | Accra, Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
