@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: auto;
+    }
+
+    header,
+    footer {
+        height: auto;
+        line-height: normal;
+        padding: 1rem;
+    }
+
+    .main-container {
+        height: auto;
+    }
+
+    .background-image {
+        position: static;
+
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .data,
+    .weather {
+        position: static;
+        width: 90%;
+        max-width: 400px;
+        margin: 1rem auto;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        padding: 1rem;
+        color: #000;
+    }
+
+    .data h2,
+    .weather h2 {
+        margin: 0 0 1rem 0;
+        border-radius: 8px 8px 0 0;
+    }
+}

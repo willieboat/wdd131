@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghana | WDD 131</title>
+    <meta name="author" content="William Ntow Boateng">
+    <link rel="stylesheet" href="styles/place-larger.css">
+    <link rel="stylesheet" href="styles/place-smaller.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Ghana</h1>
+    </header>
+
+    <div class="main-container">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/ghana.webp">
+            <source media="(max-width: 1200px)" srcset="images/ghana.webp">
+            <img src="images/ghana.webp" alt="Independence Square of Ghana" class="background-image" />
+        </picture>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 238,533 sq km</li>
+                <li><strong>Population:</strong> 34 million</li>
+                <li><strong>Capital:</strong> Accra</li>
+                <li><strong>Languages:</strong> English, Twi</li>
+                <li><strong>Currency:</strong> Cedis</li>
+                <li><strong>Time Zone:</strong> UTC+0</li>
+                <li><strong>Calling Code:</strong> +233</li>
+                <li><strong>Internet TLD:</strong> .gh</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <div class="weather-heading">
+                <h2>Weather</h2>
+                <img src="images/7795626_weather_cloud_cloudy_sky_icon.svg" alt="Cloudy weather icon"
+                    class="weather-icon">
+            </div>
+            <p><strong>Temperature:</strong> <span id="temperature">Loading...</span></p>
+            <p><strong>Conditions:</strong> <span id="conditions">Loading...</span></p>
+            <p><strong>Wind:</strong> <span id="wind">Loading...</span></p>
+            <p><strong>Wind Chill:</strong> <span id="wind-chill">Loading...</span></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>©2025 William Ntow Boateng | Ghana | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
