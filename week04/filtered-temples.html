@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Temple Filter</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menuBtn" aria-label="Toggle Menu">☰</button>
+        <nav id="mainNav">
+            <a href="#" data-filter="all">Home</a>
+            <a href="#" data-filter="old">Old</a>
+            <a href="#" data-filter="new">New</a>
+            <a href="#" data-filter="large">Large</a>
+            <a href="#" data-filter="small">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="currentFilter">Home</h2>
+        <div class="temples"></div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | William Ntow Boateng | Accra, Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+
+</html>
