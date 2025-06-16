@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: darkblue;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo-bg {
+    fill: #1a1a1a;
+}
+
+.logo-dot {
+    fill: #e63946;
+}
+
+.logo-text {
+    font: bold 20px sans-serif;
+    fill: #1a1a1a;
+}
+
+.logo-highlight {
+    fill: #e63946;
+}
+
+.logo-subtitle {
+    font: 12px sans-serif;
+    fill: greenyellow;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.fleet-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.address-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* wraps on smaller screens */
+    margin: 1rem 0;
+}
+
+.address-media img,
+.address-media iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#confirmation {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
